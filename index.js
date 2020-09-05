@@ -18,3 +18,14 @@ var randomImage2 = "images/" + randomDiceImage2; // images/dice1.png-images/dice
 var image2 = document.querySelectorAll("img")[1]; //Selecting the second image element
 
 image2.setAttribute("src", randomImage2); // Setting the attribute to random dice
+
+
+var heading = document.querySelector("h1");
+
+if (randomImage === randomImage2) {
+    heading.innerHTML = "Draw";
+} else if (randomImage >= randomImage2) {
+    heading.innerHTML = "Player 1 Wins";
+} else {
+    heading.innerHTML = "Palyer 2 Wins";
+}
