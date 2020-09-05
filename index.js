@@ -25,7 +25,7 @@ var heading = document.querySelector("h1");
 if (randomImage === randomImage2) {
     heading.innerHTML = "Draw";
 } else if (randomImage >= randomImage2) {
-    heading.innerHTML = "Player 1 Wins";
+    heading.innerHTML = "🚩Player 1 Wins";
 } else {
-    heading.innerHTML = "Palyer 2 Wins";
+    heading.innerHTML = "Palyer 2 Wins🚩";
 }
