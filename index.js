@@ -27,5 +27,5 @@ if (randomImage === randomImage2) {
 } else if (randomImage >= randomImage2) {
     heading.innerHTML = "🚩Player 1 Wins";
 } else {
-    heading.innerHTML = "Palyer 2 Wins🚩";
+    heading.innerHTML = "Player 2 Wins🚩";
 }
